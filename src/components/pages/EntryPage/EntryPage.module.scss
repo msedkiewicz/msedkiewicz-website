@@ -4,8 +4,23 @@
   background-color: $entry-page;
   height: 100vh;
 }
-.entry {
+.entrycontainer {
+    height: 100vh;
+}
+
+.entryrow {
+    height: 100vh;
+    align-content: space-around;
+}
+.entrybtn {
   background-color: $entry-page-btn;
   color: $entry-page;
   margin: 0 auto;
+  height: 20vh;
+  border-radius: 30px;
+  .h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 0;
+  }
 }
