@@ -1,0 +1,11 @@
+@import "../../../styles/variables.scss";
+
+body {
+    background-color: $entry-page;
+}
+
+.entry {
+    background-color: $entry-page-btn;
+    color: $entry-page;
+    margin: 0 auto;
+}
