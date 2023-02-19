@@ -32,3 +32,9 @@
     font-weight: bold;
   }
 }
+@media all and (max-width: 576px) {
+  .entryrow {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
