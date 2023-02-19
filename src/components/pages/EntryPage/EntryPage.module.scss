@@ -5,22 +5,30 @@
   height: 100vh;
 }
 .entrycontainer {
-    height: 100vh;
+  height: 100vh;
 }
 
 .entryrow {
-    height: 100vh;
-    align-content: space-around;
+  height: 100vh;
+  align-content: space-around;
 }
 .entrybtn {
-  background-color: $entry-page-btn;
-  color: $entry-page;
   margin: 0 auto;
   height: 20vh;
   border-radius: 30px;
-  .h2 {
+  a.link {
+    background-color: $entry-page-btn;
+    color: $entry-page;
+    display: block;
     font-size: 40px;
     text-align: center;
-    padding: 25px 0;
+    padding: 30px 0;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  a.link:hover {
+    background-color: $entry-page-hover-background;
+    color: $entry-page-hover-text;
+    font-weight: bold;
   }
 }

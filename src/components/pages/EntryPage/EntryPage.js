@@ -2,16 +2,17 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styles from "./EntryPage.module.scss";
+import { Link } from "react-router-dom";
 
 const EntryPage = () => {
   return (
     <Container className={styles.entrycontainer}>
       <Row className={styles.entryrow}>
         <Col md={3} sm={5} xs={5} className={styles.entrybtn}>
-          <h2>Polski</h2>
+          <Link to="/pl/" className={styles.link}>Polski</Link>
         </Col>
         <Col md={3} sm={5} xs={5} className={styles.entrybtn}>
-          <h2>English</h2>
+          <Link to="/en/" className={styles.link}>English</Link>
         </Col>
       </Row>
     </Container>
