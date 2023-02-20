@@ -1,0 +1,7 @@
+@import "../../../styles/variables.scss";
+
+@media all and (max-width: 576px) {
+  .heroimage {
+    display: none;
+  }
+}
