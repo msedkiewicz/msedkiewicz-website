@@ -1,7 +1,13 @@
 @import "../../../styles/variables.scss";
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 768px) {
   .heroimage {
     display: none;
+  }
+}
+@media all and (max-width: 1000px) {
+  .imghero {
+    width: 100%;
+
   }
 }
