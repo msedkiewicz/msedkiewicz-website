@@ -7,6 +7,12 @@
 .navbarcollapse {
   justify-content: flex-end !important;
 }
+.navlink {
+  color: $color-lightteal;
+}
+.navlink:hover {
+  color: $color-coffee-latte !important;
+}
 
 @media all and (max-width: 860px) {
   .navbar {

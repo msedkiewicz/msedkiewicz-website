@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "./variables.scss";
+
+$font-headers: "Montserrat", sans-serif;
+$font-paragraphs: "Roboto", sans-serif;
+
+$h1-size: 48px;
+$h2-size: 36px;
+$h3-size: 24px;
+$p-size: 16px;
+
+/* sizing for media queries */
+$h1-media-size: 36px;
+$h2-media-size: 24px;
+$h3-media-size: 20px;
+
+p {
+  font-size: $p-size;
+  color: $font-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-headers;
+  color: $header-color;
+}
+h1 {
+  font-size: $h1-size;
+  padding: 15px 0;
+}
+h2 {
+  font-size: $h2-size;
+  padding: 10px 0;
+}
+
+@media all and (max-width: 576px) {
+  h1 {
+    font-size: $h1-media-size;
+    padding: 10px 0;
+  }
+  h2 {
+    font-size: $h2-media-size;
+    padding: 5px 0;
+  }
+}
+@media all and (max-width: 255px) {
+  h1 {
+    font-size: $h2-media-size;
+    padding: 10px 0;
+  }
+  h2 {
+    font-size: $h3-media-size;
+    padding: 5px 0;
+  }
+}
