@@ -1,0 +1,11 @@
+@import "../../../styles/variables.scss";
+
+.aboutmecontainer {
+  min-width: 90vw;
+  min-height: 80vh;
+  background-color: $main-bg-color;
+  padding: 40px;
+}
+.aboutmerow {
+  padding: 0 20px;
+}
