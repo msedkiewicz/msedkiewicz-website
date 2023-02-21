@@ -1,7 +1,10 @@
 @import "../../../styles/variables.scss";
 
-@media all and (max-width: 576px) {
-  .heroimage {
-    display: none;
-  }
+.homepagecontainer {
+  width: 90vw;
+  height: 80vh;
+  background-color: $main-bg-color;
+}
+.homepagerow {
+  padding-top: 5vh;
 }
