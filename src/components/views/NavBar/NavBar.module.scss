@@ -13,7 +13,13 @@
 .navlink:hover {
   color: $color-coffee-latte !important;
 }
-
+.navlinklanguage {
+  color: $color-coffee-dark !important;
+  background-color: $color-coffee-latte;
+}
+.navlinklanguage:hover {
+  color: $color-lightteal !important;
+}
 @media all and (max-width: 860px) {
   .navbar {
     margin: 0 50px;

@@ -56,6 +56,13 @@ const NavBarPL = () => {
             >
               Kontakt
             </Nav.Link>
+            <Nav.Link
+              className={"px-2 " + styles.navlinklanguage}
+              as={NavLink}
+              to="/en/"
+            >
+              <b>EN</b>
+            </Nav.Link>
           </Nav>
           </Navbar.Collapse>
         </Container>
