@@ -1,15 +1,22 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import styles from "./HomePage.module.scss";
+import HeroImage from "../../features/HeroImage/HeroImage";
+import HeroDescription from "../../features/HeroDescription/HeroDescription";
+import NavBarPL from "../../views/NavBar/NavBarPL";
 
 const HomePagePL = () => {
-    return (<Container>
-        <Row>
-            <Col md={6} sm={6} xs={12}></Col>
-            <Col md={6} sm={6} className={styles.heroimage}></Col>
+  return (
+    <>
+      <NavBarPL></NavBarPL>
+      <Container className={styles.homepagecontainer}>
+        <Row className={styles.homepagerow}>
+          <HeroDescription>Hello World!</HeroDescription>
+          <HeroImage />
         </Row>
-    </Container>)
-}
+      </Container>
+    </>
+  );
+};
 
 export default HomePagePL;
