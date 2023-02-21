@@ -1,12 +1,13 @@
 import EntryPage from "./components/pages/EntryPage/EntryPage";
 import { Route, Routes } from "react-router-dom";
+import HomePagePL from "./components/pages/HomePage/HomePagePL";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<EntryPage />} />
-        {/* <Route path="/pl/" element={<SinglePost />} />
+        <Route path="/pl/" element={<HomePagePL />} /> {/*}
         <Route path="/pl/o-mnie/" element={<AddPostForm />} />
         <Route path="/pl/curriculum-vitae/" element={<AddPostForm />} />
         <Route path="/pl/post/edit/:id" element={<EditPostForm />} />
