@@ -205,10 +205,13 @@ const CurriculumPL = () => {
                   <p>
                     <i>2023</i>
                   </p>
-                  <p></p>
+                  <p>Zaawansowane strategie SEO na 2023 r. - Advanced SEO Strategies 2023 - Level Up Your SEO Knowledge (Udemy)</p>
+                  <p>Kompleksowy kurs SEO na 2023 + SEO dla WordPressa - The Ultimate SEO Training 2023 + SEO for WordPress Websites (Udemy)</p>
                   <p>
-                    <i>2019</i>
+                    <i>2022</i>
                   </p>
+                    <p>Kurs Google Tag Manager - Google Tag Manager (GTM) Training Course - From Zero to Hero (Udemy)</p>
+                  <p><i>2019</i></p>
                   <p>Kurs Eweliny Muc "WP dla Zielonych"</p>
                 </Accordion.Body>
               </Accordion.Item>
