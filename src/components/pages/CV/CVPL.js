@@ -13,11 +13,11 @@ const CurriculumPL = () => {
         <Row className={styles.cvrow}>
           <h1>Curriculum Vitae</h1>
           <Col md={4} sm={12} xs={12}>
-            <h2>Umiejętności</h2>
+            <h2 className={styles.cvh2}>Umiejętności</h2>
             <Accordion defaultActiveKey="0" flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Programowanie</h3>
+                  <h3 className={styles.cvh3}>Programowanie</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>HTML, CSS, SASS, RWD, Bootstrap</p>
@@ -31,7 +31,7 @@ const CurriculumPL = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Frameworki / CMSy / Systemy</h3>
+                  <h3 className={styles.cvh3}>Frameworki / CMSy / Systemy</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>NestJS, Gatsby</p>
@@ -42,7 +42,7 @@ const CurriculumPL = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Organizacja pracy</h3>
+                  <h3 className={styles.cvh3}>Organizacja pracy</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>Scrum, Kanban, Agile</p>
@@ -51,7 +51,7 @@ const CurriculumPL = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>SEO / Marketing</h3>
+                  <h3 className={styles.cvh3}>SEO / Marketing</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>Techniczne SEO, Screaming Frog, Ryte</p>
@@ -60,7 +60,7 @@ const CurriculumPL = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="4">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Języki obce</h3>
+                  <h3 className={styles.cvh3}>Języki obce</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>Angielski - C1</p>
@@ -68,10 +68,10 @@ const CurriculumPL = () => {
                   <p>Francuski - A1</p>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="4">
-                <Accordion.Header>
-                  <h3 className={styles.h3}>Zainteresowania</h3>
-                </Accordion.Header>
+            </Accordion>
+            <h2 className={styles.cvh2}>Zainteresowania</h2>
+            <Accordion defaultActiveKey="0" flush>
+              <Accordion.Item eventKey="0">
                 <Accordion.Body>
                   <p>Fotografia</p>
                   <p>
@@ -89,7 +89,7 @@ const CurriculumPL = () => {
             </Accordion>
           </Col>
           <Col md={8} sm={12} xs={12}>
-            <h2>Doświadczenie</h2>
+            <h2 className={styles.cvh2}>Doświadczenie</h2>
             <h3>
               <b>Onely, Texas, USA</b> — Junior Web Developer (wcześniej Junior
               WordPres Developer)
@@ -100,7 +100,7 @@ const CurriculumPL = () => {
             <Accordion defaultActiveKey="0" flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Obowiązki</h3>
+                  <h3 className={styles.cvh3}>Obowiązki</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
@@ -125,7 +125,7 @@ const CurriculumPL = () => {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <h3>
+            <h3 className={styles.cvh2}>
               <b>Lena Inspirations, Warszawa</b> — samozatrudnienie
             </h3>
             <p>
@@ -134,7 +134,7 @@ const CurriculumPL = () => {
             <Accordion defaultActiveKey="0" flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Obowiązki</h3>
+                  <h3 className={styles.cvh3}>Obowiązki</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
@@ -164,11 +164,11 @@ const CurriculumPL = () => {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <h2>Szkolenia (programowanie, SEO)</h2>
+            <h2 className={styles.cvh2}>Szkolenia (programowanie, SEO)</h2>
             <Accordion defaultActiveKey="0" flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>
+                  <h3 className={styles.cvh3}>
                     Kodilla - Bootcamp Fullstack Developer
                   </h3>
                 </Accordion.Header>
@@ -184,56 +184,97 @@ const CurriculumPL = () => {
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="2">
+              <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Konferencje</h3>
+                  <h3 className={styles.cvh3}>Konferencje / szkolenia</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    <i>2023</i>
+                    <i>2022</i>
                   </p>
-                  <p></p>
-                  <p><i>2021</i></p>
-                  <p>Sierpień - CONFidence Legends 20 Edycja (uczestnik)</p>
+                  <p>
+                    Kurs Technical SEO -{" "}
+                    <a className={styles.cvlinks} href="https://www.bluearrayacademy.com/courses/technical-seo-certification">
+                      BlueArray Academy
+                    </a>
+                  </p>
+                  <p>
+                    Kurs Cyfrowe zagrożenia{" "}
+                    <a className={styles.cvlinks} href="https://vod.szurek.tv/">Kacpra Szurka</a>
+                  </p>
+                  <p>Dev.js Summit</p>
+                  <p>
+                    Szkolenie z Bezpieczeństwa Webaplikacji (
+                    <a className={styles.cvlinks} href="https://niebezpiecznik.pl/szkolenia/atakowanie-ochrona-www/">
+                      Niebezpiecznik
+                    </a>
+                    )
+                  </p>
+                  <p>
+                    Warsztaty w ramach{" "}
+                    <a className={styles.cvlinks} href="https://warsawjs.com/">Warsaw JS</a>: #63 (React),
+                    #64 (Javascript), #65 (NestJS), #66 (React);
+                  </p>
+                  <p>
+                    <i>2021</i>
+                  </p>
+                  <p>CONFidence Legends - 20 Edycja (uczestnik)</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Kursy online</h3>
+                  <h3 className={styles.cvh3}>Kursy online</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
                     <i>2023</i>
                   </p>
-                  <p>Zaawansowane strategie SEO na 2023 r. - Advanced SEO Strategies 2023 - Level Up Your SEO Knowledge (Udemy)</p>
-                  <p>Kompleksowy kurs SEO na 2023 + SEO dla WordPressa - The Ultimate SEO Training 2023 + SEO for WordPress Websites (Udemy)</p>
+                  <p>
+                    Zaawansowane strategie SEO na 2023 r. - Advanced SEO
+                    Strategies 2023 - Level Up Your SEO Knowledge (Udemy)
+                  </p>
+                  <p>
+                    Kompleksowy kurs SEO na 2023 + SEO dla WordPressa - The
+                    Ultimate SEO Training 2023 + SEO for WordPress Websites
+                    (Udemy)
+                  </p>
                   <p>
                     <i>2022</i>
                   </p>
-                    <p>Kurs Google Tag Manager - Google Tag Manager (GTM) Training Course - From Zero to Hero (Udemy)</p>
-                  <p><i>2019</i></p>
+                  <p>
+                    Kurs Google Tag Manager - Google Tag Manager (GTM) Training
+                    Course - From Zero to Hero (Udemy)
+                  </p>
+                  <p>
+                    Konfiguracja Cloudflare - Setting up Cloudflare for website
+                    security and performance (Udemy)
+                  </p>
+                  <p>
+                    <i>2019</i>
+                  </p>
                   <p>Kurs Eweliny Muc "WP dla Zielonych"</p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <h2>Inne szkolenia</h2>
+            <h2 className={styles.cvh2}>Inne szkolenia</h2>
             <Accordion defaultActiveKey="0" flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Psychologia</h3>
+                  <h3 className={styles.cvh3}>Psychologia</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
                     <i>2023</i>
                   </p>
-                  <p></p>
+                  <p>Szkolenie TSR w obliczu lęku (LETSR)</p>
+                  <p>
+                    <i>2022</i>
+                  </p>
+                  <p>Konferencja EACLIPT (z psychologii klinicznej)</p>
                   <p>
                     <i>2021</i>
                   </p>
-                  <p>
-                    Sierpień - Szkolenie z budowania relacji interpersonalnych
-                    (TROP)
-                  </p>
+                  <p>Szkolenie z budowania relacji interpersonalnych (TROP)</p>
                   <p>
                     <i>2019</i>
                   </p>
@@ -247,26 +288,48 @@ const CurriculumPL = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h3 className={styles.h3}>Inne</h3>
+                  <h3 className={styles.cvh3}>Inne</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
                     <i>2020</i>
                   </p>
-                  <p>
-                    Czerwiec - szkolenie Adobe Photoshop, moduł I (IT Media)
-                  </p>
+                  <p>Szkolenie Adobe Photoshop, moduł I (IT Media)</p>
                   <p>
                     <i>2019</i>
                   </p>
-                  <p>Maj - szkolenie Adobe Lightroom (IT Media)</p>
+                  <p>Szkolenie Adobe Lightroom (IT Media)</p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <h2>Edukacja</h2>
-            EDUCATION AWF, Katowice — IInd degree coach (fencing) 2017 - 2019
-            SWPS University, Warsaw — master’s degree in general psychology
-            (studied in English language) 2010-2017
+            <h2 className={styles.cvh2}>Edukacja</h2>
+            <Accordion defaultActiveKey="0" flush>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>
+                  <h3 className={styles.cvh3}>Uniwersytet SWPS, Warszawa</h3>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>
+                    <i>2010-2017</i>
+                  </p>
+                  <p>
+                    Stopień magistra na kierunku General Psychology (psychologia
+                    ogólna w języku angielskim)
+                  </p>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  <h3 className={styles.cvh3}>Akatemia Wychowania Fizycznego, Katowice</h3>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>
+                    <i>2017 - 2019</i>
+                  </p>
+                  <p>Studia podyplomowe na kierunku Trener II klasy szermierki sportowej</p>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </Col>
         </Row>
       </Container>

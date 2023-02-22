@@ -5,12 +5,25 @@
   min-height: 80vh;
   background-color: $main-bg-color;
   padding: 40px;
+  word-wrap: break-word;
 }
 .cvrow {
   padding: 0 20px;
 }
 
-.h3 {
+.cvh2{
+  padding-top: 30px;
+}
+.cvh3 {
   font-size: 20px;
   padding-top: 8px;
+}
+
+.cvlinks {
+  color: $color-coffee-dark !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.cvlinks:hover {
+  color: $color-coffee-latte !important;
 }
