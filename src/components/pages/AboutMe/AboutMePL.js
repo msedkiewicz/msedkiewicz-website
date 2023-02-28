@@ -79,7 +79,11 @@ const AboutMePL = () => {
               kodowaniu ich nie brakuje. Można znać bardzo dobrze dany język /
               technologię, a i tak kolejny projekt potrafi zaskoczyć.
             </p>
-            <p>Dlatego też podjęłam decyzję o rozpoczęciu bootcampu. Dl</p>
+            <p>
+              Dlatego też podjęłam decyzję o rozpoczęciu bootcampu. Chciałam
+              skorzystać ze wsparcia programistów po to, aby ułatwić sobie
+              kolejne kroki w IT. Mój plan to zawojować JavaScript i React. Do tego drugiego jest mi zdecydowanie bliżej (dlatego w nim napisałam stronę). W ramach rozwoju piszę jednak również stronę z funkcjonalnościami opartymi o JavaScript. Więcej informacji wkrótce!
+            </p>
           </Col>
         </Row>
       </Container>

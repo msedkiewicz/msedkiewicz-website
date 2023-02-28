@@ -92,7 +92,7 @@ const CurriculumPL = () => {
             <h2 className={styles.cvh2}>Doświadczenie</h2>
             <h3>
               <b>Onely, Texas, USA</b> — Junior Web Developer (wcześniej Junior
-              WordPres Developer)
+              WordPress Developer)
             </h3>
             <p>
               <i>Listopad 2021 - obecnie</i>
