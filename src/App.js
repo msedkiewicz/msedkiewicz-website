@@ -5,6 +5,7 @@ import AboutMePL from "./components/pages/AboutMe/AboutMePL";
 import CurriculumPL from "./components/pages/CV/CVPL";
 import { Helmet } from 'react-helmet';
 import PortfolioPL from "./components/pages/Portfolio/PortfolioPL";
+import HobbyPL from "./components/pages/Hobby/HobbyPL";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
         <Route path="/pl/" element={<HomePagePL />} />
         <Route path="/pl/o-mnie/" element={<AboutMePL />} />
         <Route path="/pl/curriculum-vitae/" element={<CurriculumPL />} />
-        <Route path="/pl/portfolio/" element={<PortfolioPL />} /> {/*
-        <Route path="/category/" element={<Categories />} />
+        <Route path="/pl/portfolio/" element={<PortfolioPL />} />
+        <Route path="/pl/hobby/" element={<HobbyPL />} /> {/*
         <Route path="/category/:category" element={<CategoryFilter />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} /> */}
