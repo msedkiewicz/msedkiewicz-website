@@ -1,0 +1,13 @@
+@import "../../../styles/variables.scss";
+
+.socialmedia a {
+    margin: 20px;
+}
+.socialmedia > a >img {
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+a.linkedin {
+    margin-top: 24px !important;
+}

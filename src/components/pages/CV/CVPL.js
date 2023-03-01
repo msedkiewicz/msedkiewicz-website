@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import styles from "./CV.module.scss";
 import NavBarPL from "../../views/NavBar/NavBarPL";
 import Accordion from "react-bootstrap/Accordion";
+import SocialMedia from "../../features/SocialMedia/SocialMedia";
+import Pdf from './MSedkiewiczResume0103.pdf';
 
 const CurriculumPL = () => {
   return (
@@ -12,6 +14,16 @@ const CurriculumPL = () => {
       <Container className={styles.cvcontainer}>
         <Row className={styles.cvrow}>
           <h1>Curriculum Vitae</h1>
+          <Row>
+            <Col md={4} sm={12} xs={12}>
+              <SocialMedia />
+            </Col>
+            <Col md={8} sm={12} xs={12}>
+              <div className={styles.cvbuttons}>
+                <a href={Pdf} target = "_blank" rel="noreferrer">CV jęz. angielski - PDF</a>
+              </div>
+            </Col>
+          </Row>
           <Col md={4} sm={12} xs={12}>
             <h2 className={styles.cvh2}>Umiejętności</h2>
             <Accordion defaultActiveKey="0" flush>
@@ -194,26 +206,36 @@ const CurriculumPL = () => {
                   </p>
                   <p>
                     Kurs Technical SEO -{" "}
-                    <a className={styles.cvlinks} href="https://www.bluearrayacademy.com/courses/technical-seo-certification">
+                    <a
+                      className={styles.cvlinks}
+                      href="https://www.bluearrayacademy.com/courses/technical-seo-certification"
+                    >
                       BlueArray Academy
                     </a>
                   </p>
                   <p>
                     Kurs Cyfrowe zagrożenia{" "}
-                    <a className={styles.cvlinks} href="https://vod.szurek.tv/">Kacpra Szurka</a>
+                    <a className={styles.cvlinks} href="https://vod.szurek.tv/">
+                      Kacpra Szurka
+                    </a>
                   </p>
                   <p>Dev.js Summit</p>
                   <p>
                     Szkolenie z Bezpieczeństwa Webaplikacji (
-                    <a className={styles.cvlinks} href="https://niebezpiecznik.pl/szkolenia/atakowanie-ochrona-www/">
+                    <a
+                      className={styles.cvlinks}
+                      href="https://niebezpiecznik.pl/szkolenia/atakowanie-ochrona-www/"
+                    >
                       Niebezpiecznik
                     </a>
                     )
                   </p>
                   <p>
                     Warsztaty w ramach{" "}
-                    <a className={styles.cvlinks} href="https://warsawjs.com/">Warsaw JS</a>: #63 (React),
-                    #64 (Javascript), #65 (NestJS), #66 (React);
+                    <a className={styles.cvlinks} href="https://warsawjs.com/">
+                      Warsaw JS
+                    </a>
+                    : #63 (React), #64 (Javascript), #65 (NestJS), #66 (React);
                   </p>
                   <p>
                     <i>2021</i>
@@ -229,7 +251,11 @@ const CurriculumPL = () => {
                   <p>
                     <i>2023</i>
                   </p>
-                  <p>Budowanie szybszych stron WWW: Wstęp do Web Performance - Building Faster Websites: Get Satrted with Web Performance (Udemy)</p>
+                  <p>
+                    Budowanie szybszych stron WWW: Wstęp do Web Performance -
+                    Building Faster Websites: Get Satrted with Web Performance
+                    (Udemy)
+                  </p>
                   <p>
                     Zaawansowane strategie SEO na 2023 r. - Advanced SEO
                     Strategies 2023 - Level Up Your SEO Knowledge (Udemy)
@@ -321,13 +347,18 @@ const CurriculumPL = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h3 className={styles.cvh3}>Akatemia Wychowania Fizycznego, Katowice</h3>
+                  <h3 className={styles.cvh3}>
+                    Akatemia Wychowania Fizycznego, Katowice
+                  </h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
                     <i>2017 - 2019</i>
                   </p>
-                  <p>Studia podyplomowe na kierunku Trener II klasy szermierki sportowej</p>
+                  <p>
+                    Studia podyplomowe na kierunku Trener II klasy szermierki
+                    sportowej
+                  </p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
