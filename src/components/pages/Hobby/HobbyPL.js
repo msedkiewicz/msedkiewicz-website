@@ -3,11 +3,8 @@ import Row from "react-bootstrap/Row";
 import styles from "./Hobby.module.scss";
 import NavBarPL from "../../views/NavBar/NavBarPL";
 import { Col } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
+import HobbySliderPL from "../../features/HobbySlider/HobbySliderPL";
 
-import crochetpic1 from "../../../assets/hobby/crochet/poduszka1.jpg"
-import crochetpic2 from "../../../assets/hobby/crochet/kocyk1.jpg"
-import crochetpic3 from "../../../assets/hobby/crochet/koperta1.jpg"
 const HobbyPL = () => {
   return (
     <>
@@ -20,29 +17,7 @@ const HobbyPL = () => {
               Szydełkowanie jest dobre na wszystko i do wszystkiego: wyyścigu F1,
               imprezy, a także nudnych spotkań w firmie ;)
             </p>
-            <Carousel fade>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={crochetpic1}
-                  alt="Poszewka na poduszkę wykonana na szydełku"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={crochetpic2}
-                  alt="Kocyk na prezent"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={crochetpic3}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-            </Carousel>
+            <HobbySliderPL />
           </Col>
         </Row>
       </Container>
