@@ -6,12 +6,15 @@
   background-color: $main-bg-color;
   padding: 40px;
   word-wrap: break-word;
+  h1 {
+    text-align: center;
+  }
 }
 .cvrow {
   padding: 0 20px;
 }
 
-.cvh2{
+.cvh2 {
   padding-top: 30px;
 }
 .cvh3 {
@@ -26,4 +29,24 @@
 }
 .cvlinks:hover {
   color: $color-coffee-latte !important;
+}
+
+.cvbuttons {
+  margin-top: 30px;
+  margin-left: 10px;
+  background-color: $color-darkteal;
+  padding: 15px;
+  width: 215px;
+  a {
+    color: $color-lightteal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.cvbuttons:hover {
+  background-color: $color-coffee-dark;
+  a {
+    color: $color-milk-with-coffee;
+  }
 }
