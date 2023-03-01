@@ -16,7 +16,7 @@ const NavBarEN = () => {
         <Nav.Link className="px-1" as={NavLink} to="/en/">
           Home
         </Nav.Link>
-        <Nav.Link as={NavLink} to="/en/about/">
+        <Nav.Link as={NavLink} to="/en/about-me/">
           About
         </Nav.Link>
         <Nav.Link className="px-1" as={NavLink} to="/en/curriculum-vitae/">

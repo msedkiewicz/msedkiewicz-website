@@ -23,10 +23,16 @@ function App() {
         <Route path="/pl/curriculum-vitae/" element={<CurriculumPL />} />
         <Route path="/pl/portfolio/" element={<PortfolioPL />} />
         <Route path="/pl/hobby/" element={<HobbyPL />} />
-        <Route path="/pl/kontakt" element={<ContactPL />} /> 
+        <Route path="/pl/kontakt" element={<ContactPL />} />
         <Route path="/pl/*" element={<NotFoundPL />} /> {/*
-        <Route path="/about" element={<About />} />*/}
-        
+        <Route path="/en/" element={<HomePageEN />} />
+        <Route path="/en/about-me/" element={<AboutMeEN />} />
+        <Route path="/en/curriculum-vitae/" element={<CurriculumEN />} />
+        <Route path="/en/portfolio/" element={<PortfolioEN />} />
+        <Route path="/en/hobbies/" element={<HobbyEN />} />
+        <Route path="/en/contact" element={<ContactEN />} />
+        <Route path="/en/*" element={<NotFoundEN />} />
+        <Route path="/*" element={<NotFoundEN />} />*/}
       </Routes>
     </>
   );
