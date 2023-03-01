@@ -229,6 +229,7 @@ const CurriculumPL = () => {
                   <p>
                     <i>2023</i>
                   </p>
+                  <p>Budowanie szybszych stron WWW: Wstęp do Web Performance - Building Faster Websites: Get Satrted with Web Performance (Udemy)</p>
                   <p>
                     Zaawansowane strategie SEO na 2023 r. - Advanced SEO
                     Strategies 2023 - Level Up Your SEO Knowledge (Udemy)
