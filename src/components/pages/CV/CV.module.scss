@@ -9,44 +9,43 @@
   h1 {
     text-align: center;
   }
-}
-.cvrow {
-  padding: 0 20px;
-}
-
-.cvh2 {
-  padding-top: 30px;
-}
-.cvh3 {
-  font-size: 20px;
-  padding-top: 8px;
-}
-
-.cvlinks {
-  color: $color-coffee-dark !important;
-  font-weight: 600;
-  text-decoration: none !important;
-}
-.cvlinks:hover {
-  color: $color-coffee-latte !important;
-}
-
-.cvbuttons {
-  margin-top: 30px;
-  margin-left: 10px;
-  background-color: $color-darkteal;
-  padding: 15px;
-  width: 215px;
-  a {
-    color: $color-lightteal;
-    text-decoration: none;
-    text-transform: uppercase;
+  .cvrow {
+    padding: 0 20px;
   }
-}
+  .cvh2 {
+    padding-top: 30px;
+  }
+  .cvh3 {
+    font-size: 20px;
+    padding-top: 8px;
+  }
 
-.cvbuttons:hover {
-  background-color: $color-coffee-dark;
-  a {
-    color: $color-milk-with-coffee;
+  .cvlinks {
+    color: $color-coffee-dark !important;
+    font-weight: 600;
+    text-decoration: none !important;
+  }
+  .cvlinks:hover {
+    color: $color-coffee-latte !important;
+  }
+
+  .cvbuttons {
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: $color-darkteal;
+    padding: 15px;
+    width: 215px;
+    a {
+      color: $color-lightteal;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  .cvbuttons:hover {
+    background-color: $color-coffee-dark;
+    a {
+      color: $color-milk-with-coffee;
+    }
   }
 }

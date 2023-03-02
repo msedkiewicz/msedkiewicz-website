@@ -188,6 +188,7 @@ const CurriculumPL = () => {
                   <p>
                     <i>Maj 2022 - obecnie</i>
                   </p>
+                  <p>Kurs programowania zawierający wsparcie mentora 1:1, projekty grupowe oraz indywidualne.</p>
                   <p>
                     Technologie w ramach kursu: HTML, CSS, RWD, Bootstrap, NPM,
                     Git, JavaScript, AJAX, React, Webpack, Redux, Node, Express,

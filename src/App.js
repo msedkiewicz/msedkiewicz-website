@@ -10,6 +10,7 @@ import ContactPL from "./components/pages/Contact/ContactPL";
 import NotFoundPL from "./components/pages/NotFound/NotFoundPL";
 import HomePageEN from "./components/pages/HomePage/HomePageEN";
 import AboutMeEN from "./components/pages/AboutMe/AboutMeEN";
+import CurriculumEN from "./components/pages/CV/CVEN";
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
         <Route path="/pl/kontakt" element={<ContactPL />} />
         <Route path="/pl/*" element={<NotFoundPL />} />
         <Route path="/en/" element={<HomePageEN />} />
-        <Route path="/en/about-me/" element={<AboutMeEN />} />{/*
-        <Route path="/en/curriculum-vitae/" element={<CurriculumEN />} />
+        <Route path="/en/about-me/" element={<AboutMeEN />} />
+        <Route path="/en/curriculum-vitae/" element={<CurriculumEN />} />{/*
         <Route path="/en/portfolio/" element={<PortfolioEN />} />
         <Route path="/en/hobbies/" element={<HobbyEN />} />
         <Route path="/en/contact" element={<ContactEN />} />
