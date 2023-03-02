@@ -5,27 +5,27 @@
   min-height: 80vh;
   background-color: $main-bg-color;
   padding: 40px;
-}
-.notfoundrow {
-  padding: 0 20px;
-  justify-content: space-around;
-}
+  .notfoundrow {
+    padding: 0 20px;
+    justify-content: space-around;
+  }
 
-[type=button] {
-  width: 300px !important;
-  background-color: $color-darkteal !important;
-}
+  [type="button"] {
+    width: 300px !important;
+    background-color: $color-darkteal !important;
+  }
 
-[type=button] > a {
-  text-decoration: none;
-  color: $color-lightteal;
-}
+  [type="button"] > a {
+    text-decoration: none;
+    color: $color-lightteal;
+  }
 
-[type=button]:hover {
-  background-color: $color-coffee-dark !important;
-}
+  [type="button"]:hover {
+    background-color: $color-coffee-dark !important;
+  }
 
-[type=button] > a:hover {
-  text-decoration: none;
-  color: $color-milk-with-coffee;
+  [type="button"] > a:hover {
+    text-decoration: none;
+    color: $color-milk-with-coffee;
+  }
 }
