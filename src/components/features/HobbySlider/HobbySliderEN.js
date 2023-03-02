@@ -11,18 +11,18 @@ const HobbySliderPL = () => {
         <img
           className="d-block w-100"
           src={crochetpic1}
-          alt="Poszewka na poduszkę wykonana na szydełku"
+          alt="Croche pillow cover"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={crochetpic2}
-          alt="Kocyk na prezent"
+          alt="Chrochet blanket (a gift)"
         />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={crochetpic3} alt="Szydełkowa obłóczka na książkę" />
+        <img className="d-block w-100" src={crochetpic3} alt="Crochet book cover" />
       </Carousel.Item>
     </Carousel>
   );
