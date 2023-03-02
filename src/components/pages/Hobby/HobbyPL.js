@@ -14,7 +14,7 @@ const HobbyPL = () => {
           <Col className="col-10">
             <h1>Szydełkowanie</h1>
             <p>
-              Szydełkowanie jest dobre na wszystko i do wszystkiego: wyyścigu F1,
+              Szydełkowanie jest dobre na wszystko i do wszystkiego: wyścigu F1,
               imprezy, a także nudnych spotkań w firmie ;)
             </p>
             <HobbySliderPL />

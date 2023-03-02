@@ -245,7 +245,7 @@ const CurriculumEN = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h3 className={styles.cvh3}>Kursy online</h3>
+                  <h3 className={styles.cvh3}>Online courses</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>

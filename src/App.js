@@ -39,7 +39,7 @@ function App() {
         <Route path="/en/hobbies/" element={<HobbyEN />} />
         <Route path="/en/contact" element={<ContactEN />} />
         <Route path="/en/*" element={<NotFoundEN />} />
-        <Route path="/*" element={<NotFoundEN />} />*/}
+        <Route path="/*" element={<NotFoundEN />} />
       </Routes>
     </>
   );
